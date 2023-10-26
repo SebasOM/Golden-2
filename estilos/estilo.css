@@ -1,0 +1,197 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+
+
+
+#contenedor {
+    background-color: #4070f4;
+    min-width: 600px;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+
+.logo {
+    height: auto;
+    width: auto;
+    background-color: white;
+}
+
+.logo img{
+    margin-left: 700px;
+}
+
+.menu {
+    width: auto;
+    height: auto;
+    background-color: #fff;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+    padding: 0px 110px;
+    margin: 5px 150px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    transition: all .3s ease;
+}
+
+.menu ul li a:hover{
+    color: rgb(191, 143, 11) ;
+    transition: .3s ease;
+}
+.banner {
+    background-image: url(../img/ancianos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 5%;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    margin: auto;
+    color: black;
+}
+
+.banner h1 {
+    margin: 0px;
+    font-size: 2vw;
+}
+
+.banner h2 {
+    padding: 2%;
+    font-size: 2vw;
+}
+
+.vivienda-asistida {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+
+
+.parrafo {
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imagen {
+    border: solid transparent 5px;
+    border-image: linear-gradient(to bottom, #4070f4 5% , #4070f4) 1;
+    margin-right: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: all .3s ease;
+}
+
+.imagen:hover{
+    border: solid transparent 5px;
+    border-image: linear-gradient(to bottom, rgb(191, 143, 11) , rgb(191, 143, 11)) 1;
+    transition: .3s ease;
+}
+
+.vivienda-asistida-2 {
+    background-color: #4070f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parrafo-2 {
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.imagen-2 {
+    border: solid transparent 5px;
+    border-image: linear-gradient(to bottom, #fff, #fff) 1;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: all .3s ease;
+}
+
+.imagen-2:hover{
+    border: solid transparent 5px;
+    border-image: linear-gradient(to bottom, rgb(191, 143, 11) , rgb(191, 143, 11)) 1;
+    transition: .3s ease;
+}
+
+.vivienda-asistida-3 {
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.parrafo-3 {
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.imagen-3 {
+    margin-left: 850px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: black;
+    border: solid 2px white;
+    color: white;
+    text-align: center;
+    height: 30VH;
+}
+
+
+.caja1 img {
+    float: left;
+}
+
+.nombres {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+.caja1 h2 {
+    margin: 0px 7px;
+}
+
+.contacto {
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.contacto2 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.contacto p {
+    margin: 20px 0;
+
+}
